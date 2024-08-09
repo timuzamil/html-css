@@ -20,7 +20,6 @@ header {
 }
 #body-header {
     height: 80vh;
-    opacity: 0.8;
     background-image: url("blck.jfif");
   
     background-size: cover;
@@ -33,6 +32,7 @@ header {
     padding-top: 6rem;
     color: white;
     opacity: 50%;
+    
     
   }
   .text-center {
@@ -88,7 +88,7 @@ nav {
     margin: 0.5rem 0;
     
 }
-.delivery-boy {
+#delivery-boy {
     height: 12vh;
     width: 10vw;
     position: relative;
@@ -96,9 +96,9 @@ nav {
    
   }
   
-  .delivery-boy img {
-      height: 100%;
-      width: 100%;
+  #delivery-boy img {
+      height: 300%;
+      width: 300%;
     } 
     #about {
         background-color: #3b4044;
@@ -128,6 +128,7 @@ nav {
     background-image: url("bck.jpg");
     background-size: cover;
     padding: 5rem 1rem;
+
 }
 
 #menu h2 {
@@ -190,31 +191,3 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
-@media screen and (max-width: 992px) and (min-width: 769px) {
-    #menu-items-container {
-      flex-wrap: wrap;
-      
-      height: fit-content;
-    }
-  
-    .items {
-      width: 40vw;
-      margin: 0% 10% 0% 2%;
-    }
-  }
-  
-  /*  for between medium and large devices */
-  
-  @media screen and (max-width: 1199px) and (min-width: 992px) {
-    #menu-items-container {
-      flex-wrap: wrap;
-    
-      height: fit-content;
-    }
-  
-    .items {
-      width: 40vw;
-      margin: 0% 10% 0% 2%;
-    }
-  }
