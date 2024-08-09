@@ -116,9 +116,9 @@ nav {
         border:2px solid white;
         height: 100%;
         width: 100%;
-        animation-name: img-opacity;
-        animation-iteration-count: infinite;
-        animation-duration: 2s;
+        /* animation-name: img-opacity; */
+        /* animation-iteration-count: infinite; */
+        /* animation-duration: 2s; */
       }
       
       
@@ -139,6 +139,7 @@ nav {
 
 .menu-item {
     margin-bottom: 1.5rem;
+    border-radius: 50%;
 }
 
 #contact {
@@ -186,8 +187,29 @@ footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 1rem;
-    position: relative;
-    width: 100%;
-    bottom: 0;
+    padding: 1rem 0;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+
+footer .back-to-top {
+    background-color: #ff6347;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+footer .back-to-top:hover {
+    background-color: #e5533d;
 }
